@@ -100,6 +100,18 @@ header img {
 
 /*Sección misión y visión*/
 
+.mision {
+    height: 200px;
+    padding: 30px 30px 30px 50px;
+    margin-bottom: 30px;
+}
+
+.vision {
+    height: 200px;
+    padding: 30px 80px 30px 50px;
+    margin-bottom: 30px;
+}
+
 /*Sección formulario*/
 
 section {
