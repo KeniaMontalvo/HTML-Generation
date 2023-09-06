@@ -1,9 +1,5 @@
 body  {
-    font-family: 'Montserrat', sans-serif;;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*Aquí empieza mi barra de navegación*/
@@ -21,12 +17,12 @@ header img {
 
 .lista_items {
     display: flex;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 .item {
     list-style: none;
-    padding-right: 10px;
+    padding-right: 25px;
 }
 
 .item a{
@@ -39,7 +35,28 @@ header img {
     color:rgb(240, 63, 98);
 }
 
+/*contenedor principal*/
+.container_principal {
+    text-align: center;
+    background-color: #f8fae7;
+    height: 300px;
+}
 
+.titulo {
+    padding: 30px 0 20px 0;
+    color: rgb(77, 77, 77);
+}
+
+.container_principal_texto {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 50px;
+}
+
+.boton_principal {
+    width: 150px;
+    margin-bottom: 20px;
+}
 
 /*Sección formulario*/
 
@@ -66,6 +83,7 @@ label {
 input,select, option {
     padding: 5px 0 5px 10px;
     color: #5B4526;
+    outline: none;
 }
 
 button {
@@ -74,7 +92,6 @@ button {
     height: 30px;
     color: white;
     border: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 10px;
     cursor: pointer;
     font-weight: bold;
