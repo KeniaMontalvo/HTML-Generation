@@ -81,6 +81,25 @@ header img {
 
 /*Sección servicios*/
 
+.container_servicios{
+    background-color: #f8fae7;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.container_servicios h2 {
+    padding: 30px 0 30px 50px;
+    font-weight: 700;
+}
+
+.container_servicios h4{
+    color: #5B4526;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/*Sección misión y visión*/
+
 /*Sección formulario*/
 
 section {
