@@ -2,6 +2,10 @@ body  {
     font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 /*Aquí empieza mi barra de navegación*/
 
 header {
@@ -57,6 +61,25 @@ header img {
     width: 150px;
     margin-bottom: 20px;
 }
+
+/*Sección sobre nosotros*/
+
+.container_nosotros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.nosotros_texto {
+    margin: 0 60px 0 50px;
+}
+
+.nosotros_img img {
+    margin-right: 30px;
+}
+
+/*Sección servicios*/
 
 /*Sección formulario*/
 
