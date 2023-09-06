@@ -1,15 +1,47 @@
 body  {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 16px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    color: #5B4526;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;;
     text-decoration: none;
     font-style: normal;
     font-variant: normal;
     text-transform: none;
 }
+
+/*Aquí empieza mi barra de navegación*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a4e1fe;
+}
+
+header img {
+    padding-left: 20px;
+}
+
+.lista_items {
+    display: flex;
+    padding-right: 20px;
+}
+
+.item {
+    list-style: none;
+    padding-right: 10px;
+}
+
+.item a{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-weight: 700;
+}
+
+.item a:hover{
+    color:rgb(240, 63, 98);
+}
+
+
+
+/*Sección formulario*/
 
 section {
     display: flex;
