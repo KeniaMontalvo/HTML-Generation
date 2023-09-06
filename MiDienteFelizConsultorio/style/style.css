@@ -119,6 +119,10 @@ section {
     justify-content: center;
 }
 
+.titulo_formulario{
+    padding-left: 50px;
+}
+
 form {
     width: 500px;
     display:flex;
@@ -158,4 +162,16 @@ button:hover {
 textarea {
     color: #5B4526;
     opacity: 50%;
+}
+
+/*Sección de ubicación*/
+
+.ubicacion_texto {
+    padding-left: 50px;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    margin-top: 30px;
 }
